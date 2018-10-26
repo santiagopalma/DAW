@@ -1,0 +1,9 @@
+ul {
+	list-style: none;
+	text-align: center;
+}
+header{text-align: center;}
+
+ul li {
+	display: inline-block;
+}
