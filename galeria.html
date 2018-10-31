@@ -4,29 +4,32 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="empresa de servicions tecnologicos">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/rwd.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<title>Marai Projects-Galeria</title>
 	</head>
-	<body id="galeria" class= "col-12">
+	<body id="galeria">
+		<div class="container">
 		<header >
 			<h1>Galeria</h1>
 		</header>
-		<nav class= "col-12">
+		<nav >
+			<div class="row">
 			<ul>
-				<li>Noticias</li>
-				<li>Eventos</li>
+				<li class="list-inline-item" >Noticias</li>
+				<li class="list-inline-item">Eventos</li>
 			</ul>
+		</div>
 		</nav>
-		<section class= "col-12">
+		<section >
 			<article> 
-				<div class= "col-12">
-					<header class= "col-12"><h2> Noticias</h2></header>	
-					<div id="image-project" class= "col-6">
-						<header><h3>Noticia 1</h3></header>
+				
+					<header ><h2> Noticias</h2></header>
+					<div class="row">	
+					<div id="image-project" >
+						<header class="col-xl-6"><h3>Noticia 1</h3></header>
 						<a href="https://placeholder.com"><img alt src="https://via.placeholder.com/350x175"> </a>
 					</div>
-					<div class="info" class= "col-6">
+					<div class="info" class="col-xl-6" >
 						<p id="fecha3"><time datetime="2018-10-20">20 de Octubre</time></p>
 				        <p>Noticia relacionada a la imagen</p>
 					</div>
@@ -34,23 +37,23 @@
 			</article>
 			<article>
 				<div>
-					<header class= "col-12"><h2> Eventos</h2></header>	
-					<div id="event" class= "col-12">
-						<div id="image-event" class= "col-6">
+					<header ><h2> Eventos</h2></header>	
+					<div id="event" >
+						<div id="image-event" >
 							<header><h3>Evento 1</h3></header>
 							<a href="https://placeholder.com"><img alt src="https://via.placeholder.com/350x175"> </a>
 						</div>
-						<div class="info" class= "col-6">
+						<div class="info" >
 							<p id="fecha3"><time datetime="2018-10-20">20 de Octubre</time></p>
 					        <p>redaccion relacionada al evento</p>
 						</div>
 					</div>
-					<div id="event" class= "col-12">
-						<div id="image-event" class= "col-6">
+					<div id="event" >
+						<div id="image-event">
 							<header><h3>Evento 2</h3></header>
 							<a href="https://placeholder.com"><img alt src="https://via.placeholder.com/350x175"> </a>
 						</div>
-						<div class="info" class= "col-6">
+						<div class="info" >
 							<p id="fecha3"><time datetime="2018-10-20">20 de Octubre</time></p>
 					        <p>redaccion relacionada al evento</p>
 						</div>
@@ -59,9 +62,10 @@
 			</article>
 			
 		</section>
-		<footer class= "col-12">
+		<footer >
 			<span>"© 2018 MiraiProject Todos los derechos reservados".</span>
 		</footer>
+	</div>
 	</body>
 	
 </html>
