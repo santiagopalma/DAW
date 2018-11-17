@@ -2,7 +2,228 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*Google font integration*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #222;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+.navbar-nav li {
+    padding-right: 40px;
+    
+}
+.nav-link{
+    font-size:1.1em !important;
+}
+
+.navbar-brand{
+    padding-left: 40px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height:100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shawdow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+
+
+
+#personas{
+     padding-left: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fa-laptop-code{
+    color: #e54d26;
+}
+
+.fa-bolt{
+    color: #563d7c;
+}
+
+.fa-chart-bar{
+    color: #563d7c;
+}
+
+.fa-laptop-code, .fa-bolt, .fa-chart-bar {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+
+.fa-instagram{
+    color: #517fa8;
+}
+
+.fa-facebook:hover ,
+
+.fa-twitter:hover,
+
+.fa-google-plus-g:hover,
+
+.fa-instagram:hover{
+    color: #d5d5d5;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    color: #d5d5d5;
+
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+@media (max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+    .carousel-caption{
+    top: 45%;
+    
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+        
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+
+.display-4 {
+    font-size: 200%;
+}
+
+.social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+
+
+}
+
+
+@media (max-width: 576px){
+.carousel-caption{
+    top: 40%;
+    
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+        
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+        
+    }
+
+.display-4 {
+    font-size: 160%;
+}
+
+.social a{
+        font-size: 2em;
+        padding: .7rem;
+    }
+
+}
 #contact{
     background-color:#f1f1f1;
     font-family: 'Roboto', sans-serif;
@@ -27,9 +248,17 @@
     margin-bottom:30px;
 }
 
+
+
+
+
+
+
+
 @media (max-width: 768px) { 
     #contact iframe {
         margin-bottom: 15px;
     }
     
 }
+
