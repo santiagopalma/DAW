@@ -290,7 +290,10 @@ span{
     padding:60px 0px;
 }
 
-
+.image-fluid{
+	width: 100%;
+	height: 500px;
+}
 
 
 
@@ -324,23 +327,35 @@ span{
 }
 
 
+/*AQUI COMIENZA Portafolio*/
 
+.carousel-item{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	position: fixed;
+	text-align: center;
+}
+/*AQUI COMIENZA timeline*/
 dl {
   padding-left: 2em;
   margin-left: 1em;
   border-left: 1px solid;
-  
-  dt:before {
-    content: '-';
-    position: absolute;
-    margin-left: -2.05em;
-  }
+}
+dl dt:before {
+  content: '-';
+  position: relative;
+  margin-left: -2.05em;
 }
 
-svg.timeline-visualization {
-  circle {
-    fill: white;
-    stroke: black;
-    stroke-width: 2;
-  }
+svg.timeline-visualization circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
 }
