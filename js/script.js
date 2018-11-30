@@ -36,7 +36,7 @@ function addNew(titulo, contenido, imagen) {
 function loadNewsXml() {
   $.ajax({
       type: "GET",
-      url: "informacion.xml",
+      url: "../xml/informacion.xml",
       dataType: "xml",
       success: function(xml){
           $(xml).find('item').each(function(){
