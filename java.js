@@ -16,6 +16,10 @@ $( "#box1" ).hover(
   }
 );
 
+$( "#box1" ).click(function() {
+  
+  $("#webYES").attr("href", "#webYES");
+});
 
 $( "#box2" ).hover(
   function() {
@@ -147,6 +151,5 @@ if (supportsSvg()) {
   
   drawTimeline(svgElement, data);
 }
-
 
 

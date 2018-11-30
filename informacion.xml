@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+<item>
+	
+	<image>./imagenes/bg3.jpg
+</image>
+			<titulo>Nuevas tecnologias para impulsar tu negocio</titulo>
+			
+			<descripcion>Las empresas con mayor probabilidad de éxito son las que usan las tecnologías de la información como medio para sobresalir en el mercado actual. Si bien no basta con tenerlas, hay que saber usarlas porque estas van de la mano con las estrategias de negocio que se manejen, las decisiones que se tomen para saber llegar a los clientes. Estamos recibiendo información de todas partes; televisión, radio, anuncios en la calle y en su mayoría internet, teniendo un amplio campo de posibilidades para crear estrategias que mejoren el negocio.<img src="./imagenes/bg3.jpg" class="img-fluid"/></descripcion>
+			<author>Luigi Basantes</author>
+			<category>Sociedad</category>
+			<pubDate>Sun, 11 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+
+
+		<item>
+			<titulo>Ganador del primer lugar del Hackeateon Nasa Challenge</titulo>
+			<descripcion>Los integrantes del grupo estudiantil Code House participaron en la categoria <img src="./imagenes/codehouse_win1.jpeg" class="img-fluid"/></descripcion>
+			<author>Luigi Basantes</author>
+			<category>Sociedad</category>
+			<pubDate>Sun, 11 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+</note>
