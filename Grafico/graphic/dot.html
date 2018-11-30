@@ -66,23 +66,52 @@
      */
     var i,
             s,
-            N = 2,
-            E = 1,
+            N = 4,
+            E = 3,
             g = {
                 nodes: [],
                 edges: []
             };
 
     // Generate a random graph:
-    for (i = 0; i < N; i++)
+    
         g.nodes.push({
-            id: 'n' + i,
-            label: 'Node ' + i,
+            id: 'n' + 0,
+            label: 'Web Forumpol 2017' + 0,
             x: Math.random(),
             y: Math.random(),
             size: Math.random(),
             color: '#666'
         });
+
+         g.nodes.push({
+            id: 'n' + 1,
+            label: 'Llapanmi 2017 ' + 1,
+            x: Math.random(),
+            y: Math.random(),
+            size: Math.random(),
+            color: '#666'
+        });
+
+         g.nodes.push({
+            id: 'n' + 2,
+            label: 'Plants Care 2018 ' + 2,
+            x: Math.random(),
+            y: Math.random(),
+            size: Math.random(),
+            color: '#666'
+        });
+
+         g.nodes.push({
+            id: 'n' + 3,
+            label: 'ParticipaEC 2016 ' + 3,
+            x: Math.random(),
+            y: Math.random(),
+            size: Math.random(),
+            color: '#666'
+        });
+
+
     // Some colors to use on the dots
     var colors = ["#ff0000", "#00ff00", "#0000ff"];
     for (i = 0; i < E; i++)
