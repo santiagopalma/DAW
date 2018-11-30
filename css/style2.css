@@ -290,7 +290,10 @@ span{
     padding:60px 0px;
 }
 
-
+.image-fluid{
+	width: 100%;
+	height: 500px;
+}
 
 
 
@@ -323,3 +326,39 @@ span{
 	font-size: 4em;
 }
 
+<<<<<<< HEAD
+=======
+
+/*AQUI COMIENZA Portafolio*/
+
+.carousel-item{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	position: fixed;
+	text-align: center;
+}
+/*AQUI COMIENZA timeline*/
+dl {
+  padding-left: 2em;
+  margin-left: 1em;
+  border-left: 1px solid;
+}
+dl dt:before {
+  content: '-';
+  position: relative;
+  margin-left: -2.05em;
+}
+
+svg.timeline-visualization circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
+>>>>>>> 6f40c65e8c60b8265e31b042c1838b6264616b67
